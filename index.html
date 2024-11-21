@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header started -->
+    <header class="header">
+      <div class="container p-[20px] flex items-center justify-between">
+        <div class="header_right flex items-center gap-[30px]">
+          <label for="check"><img src="./imgs/header.png" alt="" /></label>
+
+          <input type="checkbox" id="check" class="hidden" />
+          <div class="links flex items-center gap-[30px]">
+            <p>
+              <a class="font-[400] text-[16px] text-[#000]" href="./second.html">Услуги</a>
+            </p>
+            <p>
+              <a class="font-[400] text-[16px] text-[#000]" href="#"
+                >Преимущества</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[16px] text-[#000]" href="#">Отзывы</a>
+            </p>
+            <div class="close">
+              <label for="check"
+                ><i class="fa-solid fa-xmark text-[white]"></i
+              ></label>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="header_left flex items-center gap-[20px] max-[520px]:hidden"
+        >
+          <p>Войти</p>
+          <button class="btn">Быстрый заказ</button>
+        </div>
+      </div>
+    </header>
+    <!-- header ended -->
+
+    <!-- showcase started -->
+    <section class="showcase mt-[50px]">
+      <div
+        class="container grid grid-cols-2 gap-[30px] p-[30px] max-[1030px]:grid-cols-1 max-[500px]:p-[10px]"
+      >
+        <div
+          class="showcase_left flex flex-col items-start justify-start gap-[20px]"
+        >
+          <h1
+            class="font-[600] text-[46px] text-[#000] max-[1220px]:text-[30px] max-[500px]:text-[25px]"
+          >
+            Продвижение во всех соцсетях за пару кликов
+          </h1>
+          <p
+            class="font-[400] text-[28px] text-[#000] max-[1220px]:text-[20px] max-[500px]:text-[16px]"
+          >
+            Получайте подписчиков, лайки, репосты, просмотры, прослушивания и
+            любую другую активность на свои профили в социальных сетях по самым
+            низким ценами на рынке и в самые быстрые сроки!
+          </p>
+          <button class="btn">Начать продвижение</button>
+        </div>
+
+        <div class="showcase_right">
+          <img src="./imgs/showcaase.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- showcase ended -->
+
+    <!-- section:order started -->
+    <section class="order">
+      <div class="container flex flex-col items-center justify-center">
+        <h1 class="font-[600] text-[36px] text-[#fff] text-center">
+          Быстрый заказ
+        </h1>
+        <div
+          class="social_media_icons flex items-center gap-[30px] mt-[30px] max-[1250px]:w-[700px] max-[950px]:w-[600px] max-[820px]:w-[500px] max-[720px]:w-[400px] max-[430px]:w-[300px]"
+        >
+          <!-- icon1 -->
+          <div class="icon1 flex items-center gap-[5px]">
+            <img src="./imgs/icon1.png" alt="" />
+            <p class="font-[500] text-[18px] text-[1c1c1f]">Instagram</p>
+          </div>
+          <!-- icon2 -->
+          <div class="icon1 flex items-center gap-[5px]">
+            <img src="./svgs/icon2.svg" alt="" />
+            <p class="font-[500] text-[18px] text-[1c1c1f]">VK</p>
+          </div>
+          <!-- icon3 -->
+          <div class="icon1 flex items-center gap-[5px]">
+            <img src="./svgs/icon3.svg" alt="" />
+            <p class="font-[500] text-[18px] text-[1c1c1f]">TikTok</p>
+          </div>
+          <!-- icon4 -->
+          <div class="icon1 flex items-center gap-[5px]">
+            <img src="./svgs/icon4.svg" alt="" />
+            <p class="font-[500] text-[18px] text-[1c1c1f]">Telegram</p>
+          </div>
+          <!-- icon5 -->
+          <div class="icon1 flex items-center gap-[5px]">
+            <img src="./svgs/icon5.svg" alt="" />
+            <p class="font-[500] text-[18px] text-[1c1c1f]">YouTube</p>
+          </div>
+          <!-- icon6 -->
+          <div class="icon1 flex items-center gap-[5px]">
+            <img src="./svgs/icon6.svg" alt="" />
+            <p class="font-[500] text-[18px] text-[1c1c1f]">Facebook</p>
+          </div>
+          <!-- icon7 -->
+          <div class="icon1 flex items-center gap-[5px]">
+            <img src="./svgs/icon7.svg" alt="" />
+            <p class="font-[500] text-[18px] text-[1c1c1f]">Twitter</p>
+          </div>
+          <!-- icon8 -->
+          <div class="icon1 flex items-center gap-[5px]">
+            <img src="./svgs/icon8.svg" alt="" />
+            <p class="font-[500] text-[18px] text-[1c1c1f]">Twitch</p>
+          </div>
+          <!-- icon9 -->
+          <div class="icon1 flex items-center gap-[5px]">
+            <img src="./svgs/icon9.svg" alt="" />
+            <p class="font-[500] text-[18px] text-[1c1c1f]">RuTube</p>
+          </div>
+        </div>
+
+        <div
+          class="cards mt-[40px] grid grid-cols-5 gap-5 max-[1450px]:grid-cols-3 max-[1130px]:grid-cols-2 max-[1130px]:p-[10px] max-[875px]:grid-cols-1"
+        >
+          <!-- card1 -->
+          <div
+            class="card1 flex flex-col gap-[15px] items-center bg-[white] rounded-[10px] px-[47px] py-[49px] max-[875px]:w-full"
+          >
+            <img src="./imgs/c1.png" alt="" />
+            <p class="font-[500] text-[20px]">Подписчики</p>
+          </div>
+          <!-- card2 -->
+          <div
+            class="card1 flex flex-col gap-[15px] items-center bg-[white] rounded-[10px] px-[47px] py-[49px] max-[875px]:w-full"
+          >
+            <img src="./imgs/c2.png" alt="" />
+            <p class="font-[500] text-[20px]">Лайки</p>
+          </div>
+          <!-- card3 -->
+          <div
+            class="card1 flex flex-col gap-[15px] items-center bg-[white] rounded-[10px] px-[47px] py-[49px] max-[875px]:w-full"
+          >
+            <img src="./imgs/c3.png" alt="" />
+            <p class="font-[500] text-[20px]">Просмотры</p>
+          </div>
+          <!-- card4 -->
+          <div
+            class="card1 flex flex-col gap-[15px] items-center bg-[white] rounded-[10px] px-[47px] py-[49px] max-[875px]:w-full"
+          >
+            <img src="./imgs/c4.png" alt="" />
+            <p class="font-[500] text-[20px]">Комментарии</p>
+          </div>
+          <!-- card5 -->
+          <div
+            class="card1 flex flex-col gap-[15px] items-center bg-[white] rounded-[10px] px-[47px] py-[49px] max-[875px]:w-full"
+          >
+            <img src="./imgs/c5.png" alt="" />
+            <p class="font-[500] text-[20px]">Просмотры</p>
+          </div>
+          <!-- card6 -->
+          <div
+            class="card1 flex flex-col gap-[15px] items-center bg-[white] rounded-[10px] px-[47px] py-[49px]max-[875px]:w-full"
+          >
+            <img src="./imgs/c6.png" alt="" />
+            <p class="font-[500] text-[20px]">Зрители в прямой эфир</p>
+          </div>
+          <!-- card7 -->
+          <div
+            class="card1 flex flex-col gap-[15px] items-center bg-[white] rounded-[10px] px-[47px] py-[49px] max-[875px]:w-full"
+          >
+            <img src="./imgs/c7.png" alt="" />
+            <p class="font-[500] text-[20px]">Просмотры</p>
+          </div>
+          <!-- card8 -->
+          <div
+            class="card1 flex flex-col gap-[15px] items-center bg-[white] rounded-[10px] px-[47px] py-[49px] max-[875px]:w-full"
+          >
+            <img src="./imgs/c8.png" alt="" />
+            <p class="font-[500] text-[20px]">IGTV</p>
+          </div>
+          <!-- card9 -->
+          <div
+            class="card1 flex flex-col gap-[15px] items-center bg-[white] rounded-[10px] px-[47px] py-[49px] max-[875px]:w-full"
+          >
+            <img src="./imgs/c9.png" alt="" />
+            <p class="font-[500] text-[20px]">Reels</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:order ended -->
+
+    <!-- section:clients started -->
+    <section class="clients mt-[40px]">
+      <div class="container max-[670px]:p-[15px]">
+        <h1 class="font-[600] text-[36px] text-[#000] text-center">
+          Отзывы клиентов
+        </h1>
+        <div
+          class="clients_profile grid grid-cols-4 mt-[30px] gap-5 max-[1345px]:grid-cols-2 max-[670px]:grid-cols-1"
+        >
+          <!-- profile1 -->
+          <div class="profile1 p-[30px] bg-[#f8f8f9] rounded-[14px]">
+            <div class="profile_user flex items-center gap-[10px]">
+              <img src="./imgs/profile.png" alt="" />
+              <div class="stars">
+                <p class="font-[500] text-[18px] text-[#000] text-center">
+                  Александр
+                </p>
+                <img src="./imgs/stars.png" alt="" />
+              </div>
+            </div>
+
+            <p class="font-[400] text-[18px] text-[#5f5f66] mt-[20px]">
+              SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+              подписчиков и лайки, все прошло быстро и качественно, всем
+              рекомендую!
+            </p>
+          </div>
+          <!-- profile2 -->
+          <div class="profile1 p-[30px] bg-[#f8f8f9] rounded-[14px]">
+            <div class="profile_user flex items-center gap-[10px]">
+              <img src="./imgs/profile.png" alt="" />
+              <div class="stars">
+                <p class="font-[500] text-[18px] text-[#000] text-center">
+                  Александр
+                </p>
+                <img src="./imgs/stars.png" alt="" />
+              </div>
+            </div>
+
+            <p class="font-[400] text-[18px] text-[#5f5f66] mt-[20px]">
+              SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+              подписчиков и лайки, все прошло быстро и качественно, всем
+              рекомендую!
+            </p>
+          </div>
+          <!-- profile3 -->
+          <div class="profile1 p-[30px] bg-[#f8f8f9] rounded-[14px]">
+            <div class="profile_user flex items-center gap-[10px]">
+              <img src="./imgs/profile.png" alt="" />
+              <div class="stars">
+                <p class="font-[500] text-[18px] text-[#000] text-center">
+                  Александр
+                </p>
+                <img src="./imgs/stars.png" alt="" />
+              </div>
+            </div>
+
+            <p class="font-[400] text-[18px] text-[#5f5f66] mt-[20px]">
+              SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+              подписчиков и лайки, все прошло быстро и качественно, всем
+              рекомендую!
+            </p>
+          </div>
+          <!-- profile4 -->
+          <div class="profile1 p-[30px] bg-[#f8f8f9] rounded-[14px]">
+            <div class="profile_user flex items-center gap-[10px]">
+              <img src="./imgs/profile.png" alt="" />
+              <div class="stars">
+                <p class="font-[500] text-[18px] text-[#000] text-center">
+                  Александр
+                </p>
+                <img src="./imgs/stars.png" alt="" />
+              </div>
+            </div>
+
+            <p class="font-[400] text-[18px] text-[#5f5f66] mt-[20px]">
+              SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+              подписчиков и лайки, все прошло быстро и качественно, всем
+              рекомендую!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:clients ended -->
+
+    <!-- section:discount started -->
+    <section class="discount mt-[60px]">
+      <div
+        class="container flex items-center justify-around bg-[#0058ff] rounded-[40px] px-[30px] py-[30px] max-[1000px]:flex-col max-[500px]:bg-white"
+      >
+        <div
+          class="discount_left flex flex-col items-start justify-start gap-[25px]"
+        >
+          <h1
+            class="font-[600] text-[36px] text-[#fff] max-[1270px]:text-[30px] max-[500px]:text-[#000]"
+          >
+            Скидки до 50% в нашем телеграм-канале
+          </h1>
+          <p class="font-[400] text-[18px] text-[#fff] max-[500px]:text-[#000]">
+            Раздаем промокоды в Telegram каждую неделю
+          </p>
+          <button class="btn2">Получить промокод</button>
+        </div>
+        <img src="./imgs/discount.png" alt="" />
+      </div>
+    </section>
+    <!-- section:discoount ended -->
+
+    <!-- section:questons started -->
+    <section class="questions mt-[50px]">
+      <div class="container max-[350px]:p-[10px]">
+        <h1 class="font-[600] text-[36px] text-[#000] text-center">
+          Частые вопросы
+        </h1>
+        <div
+          class="all_questions grid grid-cols-2 gap-[20px] mt-[30px] max-[850px]:grid-cols-1 items-center place-items-center"
+        >
+          <!-- q1 -->
+          <div class="question1">
+            <select name="first" id="first">
+              <option value="f1">Как вы гарантируете качество услуг?</option>
+              <option value="f2">Lorem, ipsum.</option>
+              <option value="f3">Lorem, ipsum.</option>
+            </select>
+          </div>
+          <!-- q1 -->
+          <div class="question1">
+            <select name="first" id="first">
+              <option value="f1">Как вы гарантируете качество услуг?</option>
+              <option value="f2">Lorem, ipsum.</option>
+              <option value="f3">Lorem, ipsum.</option>
+            </select>
+          </div>
+          <!-- q1 -->
+          <div class="question1">
+            <select name="first" id="first">
+              <option value="f1">Как вы гарантируете качество услуг?</option>
+              <option value="f2">Lorem, ipsum.</option>
+              <option value="f3">Lorem, ipsum.</option>
+            </select>
+          </div>
+          <!-- q1 -->
+          <div class="question1">
+            <select name="first" id="first">
+              <option value="f1">Как вы гарантируете качество услуг?</option>
+              <option value="f2">Lorem, ipsum.</option>
+              <option value="f3">Lorem, ipsum.</option>
+            </select>
+          </div>
+          <!-- q1 -->
+          <div class="question1">
+            <select name="first" id="first">
+              <option value="f1">Как вы гарантируете качество услуг?</option>
+              <option value="f2">Lorem, ipsum.</option>
+              <option value="f3">Lorem, ipsum.</option>
+            </select>
+          </div>
+          <!-- q1 -->
+          <div class="question1">
+            <select name="first" id="first">
+              <option value="f1">Как вы гарантируете качество услуг?</option>
+              <option value="f2">Lorem, ipsum.</option>
+              <option value="f3">Lorem, ipsum.</option>
+            </select>
+          </div>
+          <!-- q1 -->
+          <div class="question1">
+            <select name="first" id="first">
+              <option value="f1">Как вы гарантируете качество услуг?</option>
+              <option value="f2">Lorem, ipsum.</option>
+              <option value="f3">Lorem, ipsum.</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:questions ended -->
+
+    <!-- footer started -->
+    <footer class="footer mt-[50px] bg-[#f8f8f9]">
+      <div class="container p-[20px]">
+        <div class="footer_top grid grid-cols-4 gap-[70px] max-[1000px]:grid-cols-2 max-[470px]:grid-cols-1">
+          <!-- f1 -->
+          <div class="f1 flex flex-col gap-[10px]  items-center">
+            <img src="./imgs/header.png" alt="" />
+            <p class="font-[400] text-[14px]">
+              SMMFLOW - сервис, где вы сможете приобрести качественное
+              продвижение в социальных сетях по выгодным ценам.
+            </p>
+            <div class="footer_icons flex items-center gap-[5px]">
+              <img src="./svgs/f1.svg" alt="" />
+              <img src="./svgs/f2.svg" alt="" />
+              <img src="./svgs/f3.svg" alt="" />
+              <img src="./svgs/f4.svg" alt="" />
+            </div>
+          </div>
+          <!-- f2 -->
+          <div class="f2 flex flex-col gap-[9px] items-center">
+            <p><a class="font-[400] text-[16px] text-[#000]" href="#">Каталог услуг</a></p>
+            <p><a class="font-[400] text-[16px] text-[#000]" href="#">Преимущества</a></p>
+            <p><a class="font-[400] text-[16px] text-[#000]" href="#">Отзывы</a></p>
+          </div>
+          <!-- f3 -->
+          <div class="f2 flex flex-col gap-[9px] items-center">
+            <p>
+              <a class="font-[400] text-[16px] text-[#000]" href="#"
+                >Политика конфиденциальности</a
+              >
+            </p>
+
+            <p>
+              <a class="font-[400] text-[16px] text-[#000]" href="#"
+                >Публичная оферта</a
+              >
+            </p>
+
+            <p>
+              <a class="font-[400] text-[16px] text-[#000]" href="#">Пользовательское соглашение</a>
+            </p>
+            <p>
+              <a class="font-[400] text-[16px] text-[#000]" href="#">Правила сервиса</a>
+            </p>
+          </div>
+          <!-- f4 -->
+           <div class="f4 flex flex-col items-center gap-[10px]">
+            <h2 class="font-[500] text-[16px]">Нужна помощь?</h2>
+            <div class="online px-[16px] py-[26px] rounded-[4px] bg-[#ebebeb]">
+              <p class="font-[400] text-[16px]">Онлайн-чат</p>
+            </div>
+            <p><a href="mailto:support@smmflow.net">support@smmflow.net</a></p>
+           </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

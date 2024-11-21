@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+@media (min-width: 1450px) {
+  .container {
+    width: 1250px;
+    margin: 0 auto;
+  }
+}
+.btn {
+  border-radius: 6px;
+  padding: 12px 24px;
+  background: #1d4ed8;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  transition: 0.5s;
+}
+.btn:hover {
+  transform: scale(0.8);
+}
+.header {
+  box-shadow: 0 4px 20px 0 rgba(232, 232, 232, 0.61);
+  background: #fff;
+}
+.order {
+  padding: 40px 129px 60px 130px;
+  background: #0058ff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+}
+.social_media_icons {
+  box-shadow: inset -70px 0 10px 0 #fff;
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px 13px;
+}
+.links {
+  position: relative;
+}
+.btn2 {
+  border-radius: 6px;
+  padding: 18px 24px;
+  background: #2c75ff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  color: #fff;
+}
+option {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #000;
+}
+select {
+  border-radius: 10px;
+  padding: 22px 24px 22px 15px;
+  background: #f8f8f9;
+  outline: none;
+}
+@media (max-width: 1450px) {
+  .social_media_icons {
+    width: 1000px;
+    overflow-x: scroll;
+    gap: 90px;
+  }
+}
+@media (max-width: 900px) {
+  .links {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background: #becaec;
+    height: 100vh;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+  }
+  .links a {
+    color: #fff;
+    font-weight: 600;
+  }
+  #check:checked ~ .links {
+    left: 0;
+  }
+}
+
